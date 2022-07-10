@@ -1,6 +1,6 @@
 public class SwitchStatement {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         char nilai = 'C';
         String ucapan = switch (nilai) {
             case 'A' : yield "Selamat anda lulus dengan sempurna";
@@ -10,6 +10,6 @@ public class SwitchStatement {
         };
 
         System.out.println(ucapan);
-
     }
+
 }

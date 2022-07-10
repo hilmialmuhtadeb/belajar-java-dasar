@@ -1,9 +1,7 @@
 public class RecursiveMethod {
 
     public static void main(String[] args) {
-
         System.out.println(getFactorial(5));
-
     }
 
     static int getFactorial(int n) {
